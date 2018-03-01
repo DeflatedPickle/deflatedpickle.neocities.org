@@ -3,3 +3,22 @@ body {
   color: black;
   font-family: Verdana;
 }
+
+input[type="button"] {
+    -webkit-appearance: none;
+    outline: none;
+    border-style: outset;
+    border-width: 4px;
+
+    border-color: gray;
+}
+
+input[type="button"]:hover {
+    border-style: inset;
+}
+
+input[type="button"]:active {
+    border-style: solid;
+
+    border-color: dimgray;
+}
